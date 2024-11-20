@@ -22,7 +22,9 @@ public class GameMinDTO {
         shortDescription = entity.getShortDescription();
     }
 
-    //Neste DTO so precisamos dos GETTERS sem os SETTERS
+    /*Neste construtor GameMinDTO precisamos SOMENTE dos GETTERS (sem os SETTERS) pelo
+     fato do uso deste modelo de construtor acima, está Settando direto na variável da
+     entidade, por isso a necessidade de gerar somente os GETTERS.*/
 
     public Long getId() {
         return id;
