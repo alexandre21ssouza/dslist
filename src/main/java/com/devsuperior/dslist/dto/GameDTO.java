@@ -29,7 +29,7 @@ public class GameDTO {
 
 
     }
-
+    //por usar o BeanUtils necessita a criação dos GETTERS E SETTERS
     public Long getId() {
         return id;
     }
